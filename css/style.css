@@ -1,0 +1,124 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, ol, ul, li, article,aside, figcaption, footer, header, nav, section {
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	font-size: 100%;
+  	font: inherit;
+  	vertical-align: baseline; 
+  }
+  html, body {
+  	height: 100%;
+  	width: 100%;
+  	overflow: hidden; 
+  	font-family: 'Lora', serif;
+  	-webkit-font-smoothing: antialiased;
+  	font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-transform: uppercase;
+}
+ol, ul {
+  	list-style: none; 
+}
+a {
+  	text-decoration: none; 
+}
+/*Section 01 - LandingPage*/
+.one {
+	background: url(../img/aa-bg01.jpg) center top no-repeat;
+	background-size:  cover;
+	min-height: 740px;
+}
+h1 {
+	color: #ffffff;
+	font-weight: 100;
+	font-size: 3em;
+	padding-left: 2em;
+	padding-top: 10em;
+
+}
+
+
+
+
+
+
+#main-nav {
+  	position: absolute;
+  	top: 50%;
+  	left: 20px;
+  	margin-top: -77px;
+  	z-index: 20; 
+}
+ #main-nav li {
+ 	height: 11px;
+    	width: 11px;
+    	padding: 10px;
+    	cursor: pointer;
+    	position: relative;
+}
+    #main-nav li p {
+      font-family: 'Lato', sans-serif;
+      font-size: 0.9em;
+      font-weight: 400;
+      line-height: 24px;
+      color: #ffffff;
+      height: 24px;
+      padding: 0 10px;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      -khtml-border-radius: 100px;
+      border-radius: 100px;
+      background: #434343;
+      white-space: nowrap;
+      position: absolute;
+      left: 31px;
+      top: 4px; 
+}
+    #main-nav li span {
+      display: block;
+      height: 10px;
+      width: 10px;
+      border: 1px solid #b0b0b0;
+      position: relative;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      -khtml-border-radius: 100%;
+      border-radius: 100%; 
+}
+    #main-nav li i {
+      display: block;
+      height: 12px;
+      width: 12px;
+      position: absolute;
+      top: -1px;
+      left: -1px;
+      background: #434343;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      -khtml-border-radius: 100%;
+      border-radius: 100%; 
+}
+  #main-nav i {
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+  #main-nav p {
+    opacity: 0; 
+}
+  #main-nav p, #main-nav i {
+    -webkit-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1) 0ms;
+    -moz-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1) 0ms;
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; 
+}
+  #main-nav li:hover i, #main-nav li.active i {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); 
+}
+  #main-nav li:hover p {
+    opacity: 1; 
+}
