@@ -199,3 +199,21 @@ h1 {
   #main-nav li:hover p {
     opacity: 1; 
 }
+/*Section 02 - Mission*/
+.text {
+    line-height: 1.5;
+    color: #565656;
+    letter-spacing: 1px; 
+    width: 520px;
+    margin: 0 auto; 
+}
+.about {
+    background: #ffffff;
+}
+h2 {
+    margin-bottom: 50px; 
+    font-weight: 300;
+    font-size: 3em;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
