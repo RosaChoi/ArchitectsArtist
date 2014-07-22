@@ -98,3 +98,22 @@ h1 {
     padding-top: 10.8em;
     text-align: left;
 }
+/*News & Updates*/
+#news {
+  font-size: 1.1em;
+  color: #ffffff;
+  z-index: 999;
+  padding: 1.2em;
+  border-left: 4px solid #ffffff;
+  width: 80%;
+  text-align: left;
+  position: absolute;
+  bottom: 1.2em;
+  /*display: none;*/
+}
+.highlight {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    color: #c0a066;
+}
