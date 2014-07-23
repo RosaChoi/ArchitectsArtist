@@ -28,3 +28,11 @@ function logoClicked() {
 	console.log(logoClicked);
 	$('body').animate({scrollTop: 0}, 900);
 };
+
+// Logo Hover
+$('.logo').mouseenter(function() {
+	$('.home').fadeIn(1500);
+});
+$('.logo').mouseleave(function() {
+	$('.home').fadeOut(1500);
+});
