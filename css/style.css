@@ -267,7 +267,6 @@ h2 {
     position: relative;
     top: 25.4em;
     border: 1px solid #ffffff;
-    /*background: rgba(0,0,0,0.7);*/
     z-index: 5;
     max-width: 190px;
     height: 50px;
@@ -282,4 +281,58 @@ h2 {
 }
 .button:hover {
     background: rgba(192,160,102,0.5);
+}
+
+/*Section 04 - Artist*/
+.four {
+    background: url(../img/artist01.jpg) center top no-repeat;
+    min-height: 740px;
+}
+.artist {
+    color: #000;
+}
+.wasel-quote {
+    width: 64%;
+    font-style: italic;
+    font-size: 1.5em;
+    line-height: 1.8;
+    margin: auto;
+    text-align: left;
+    position: relative;
+    top: 4em;
+    padding: 2em 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+a.profile {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    width: 25%;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    font-style: normal;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+.profile:hover {
+    background: rgba(192,160,102,0.9);
+}
+.q-name {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
+.bio {
+     font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 2.5em 0;
 }
