@@ -20,3 +20,11 @@ $(document).ready(function () {
 		}
 	});
 });
+
+//ScrollTop - home
+$('.logo').click(logoClicked);
+function logoClicked() {
+	event.preventDefault();
+	console.log(logoClicked);
+	$('body').animate({scrollTop: 0}, 900);
+};
