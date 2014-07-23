@@ -384,7 +384,7 @@ footer p a:hover {
 }
 
 /*Artist Page*/
-/*Section One - LandingPage*/
+/*Section One - Landing*/
 .artist-landingpage {
     background: url(../img/wasel01.jpg) center center no-repeat;
     -webkit-background-size: cover;
@@ -413,4 +413,83 @@ h1 {
 .emphasis {
     color: #c0a066;
 }
+/*Section Two - Q &A*/
+#conversation {
+    background-color: #ffffff;
+}
+.sub-title {
+    color: #565656;
+}
+.writer,
+.years {
+    margin: auto;
+    text-align: left;
+    width: 600px;
+    padding: 1.5em 0;
+}
+.years {
+    color: #000;
+}
+#conversation .text {
+    color: #565656;
+     margin: auto;
+    text-align: left;
+    width: 600px;
+}
+/*Section Three - Exhibitions & Projects*/
+#exhibitions {
+    background-color: #000;
+}
+#exhibitions .sub-title {
+    color: #c0a066;
+}
+.exhibition-list {
+    background-color: #ffffff;
+    margin: auto;
+    text-align: left;
+    width: 600px;
+    padding: 2em;
+    line-height: 1.5;
+    font-size: 0.8em;
+    background-color: rgba(255,255,255,0.7);
+    border: 1px solid #413428;
+}
+/*Section Four - Media and Publication*/
+#media {
+    background-color: #ffffff;
+}
 
+/*Section Five - Artist Residencies*/
+#residency {
+     background: url(../img/czech01.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#residency .sub-title {
+    color: #000;
+}
+.date {
+    padding: 1.5;
+}
+.locate {
+    font-size: 12px;
+    text-align: left;
+    padding: 1.5em;
+}
+.journey {
+    font-family: 'Lora', serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    text-align: left;
+    text-transform: none;
+    padding: 1.5em;
+}
+.special {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #000;
+}
