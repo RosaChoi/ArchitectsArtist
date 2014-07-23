@@ -184,7 +184,7 @@ h1 {
 #news {
     font-size: 1.1em;
     color: #ffffff;
-    z-index: 999;
+    z-index: 5;
     padding: 1.2em;
     border-left: 4px solid #ffffff;
     width: 80%;
@@ -318,7 +318,8 @@ a.profile {
     padding: 10px 20px;
 }
 .profile:hover {
-    background: rgba(192,160,102,0.9);
+    background-color: #ffffff;
+    color: #000;
 }
 .q-name {
     font-family: 'Lato', sans-serif;
@@ -336,3 +337,50 @@ a.profile {
     color: #ffffff;
     padding: 2.5em 0;
 }
+
+/*Section 05- Contact*/
+.five,
+.contact-us {
+    background-color: #f4f4f4;
+    color: #565656;
+}
+.five p {
+    font-size: 0.8em;
+    width: 580px;
+    padding-bottom: 2em;
+}
+.contact-info li {
+    display: inline-block;
+    height: 30px;
+    padding: 0 5px;
+}
+#twitter, 
+#facebook,
+#instagram,
+#email {
+    color: #565656;
+}
+#twitter:hover,
+#facebook:hover,
+#instagram:hover,
+#email:hover {
+    color: #c0a066;
+}
+em {
+    font-weight: bold;
+}
+/*Footer*/
+footer p {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    height: 20px; 
+    padding: 20px 20px;
+}
+footer p a {
+    color: #565656;
+}
+footer p a:hover {
+    color: #fb1d06;
+}
+
