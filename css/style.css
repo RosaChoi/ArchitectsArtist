@@ -383,5 +383,34 @@ footer p a:hover {
     color: #fb1d06;
 }
 
-
+/*Artist Page*/
+/*Section One - LandingPage*/
+.artist-landingpage {
+    background: url(../img/wasel01.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    border-bottom: 2px solid rgba(0,0,0,0.8);
+}
+h1 {
+    font-size: 3em;
+    padding-left: 3.4em;
+    line-height: 2;
+}
+.small-quote {
+    position: relative;
+    bottom: -4em;
+    left: 10em;
+    background-color: #000;
+    width: 640px;
+    height: 50px;
+    color: #f4f4f4;
+    padding-top: 2em;
+    font-style: italic;
+}
+.emphasis {
+    color: #c0a066;
+}
 
