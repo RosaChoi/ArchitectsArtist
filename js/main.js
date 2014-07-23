@@ -26,7 +26,7 @@ $('.logo').click(logoClicked);
 function logoClicked() {
 	event.preventDefault();
 	console.log(logoClicked);
-	$('body').animate({scrollTop: 0}, 900);
+	$('body, html').animate({scrollTop: 0}, 900);
 };
 
 // Logo Hover
@@ -42,9 +42,10 @@ var FAST_SCROLL = 600
 
 $('#main-nav ul li').click(mainNavClicked);
 function mainNavClicked() {
-		// console.log('mainNavClicked');
-		var targetId = $(this).find('a').attr('data-target-id');
-		// console.log(targetId);
-		var targetY = $('#' + targetId).offset().top;
-		$('body').animate({scrollTop: targetY}, FAST_SCROLL);
+	event. preventDefault();
+	// console.log('mainNavClicked');
+	var targetId = $(this).find('a').attr('data-target-id');
+	// console.log(targetId);
+	var targetY = $('#' + targetId).offset().top;
+	$('body, html').animate({scrollTop: targetY}, FAST_SCROLL);
 };
