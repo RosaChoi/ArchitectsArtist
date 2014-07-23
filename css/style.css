@@ -443,6 +443,20 @@ h1 {
 #exhibitions .sub-title {
     color: #c0a066;
 }
+#exhibitions .years,
+#exhibitions .special {
+    color: #ffffff;
+}
+#exhibitions .exhibition-list {
+    background-color: #000;
+    border: 1px solid #c0a066;
+    color: #a6a5a5;
+}
+#exhibitions .special:hover {
+    color: #c0a066;
+}
+
+/*Section Four - Media and Publication*/
 .exhibition-list {
     background-color: #ffffff;
     margin: auto;
@@ -454,7 +468,6 @@ h1 {
     background-color: rgba(255,255,255,0.7);
     border: 1px solid #413428;
 }
-/*Section Four - Media and Publication*/
 #media {
     background-color: #ffffff;
 }
@@ -486,10 +499,29 @@ h1 {
     text-transform: none;
     padding: 1.5em;
 }
-.special {
+.special,
+strong {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 700;
     color: #000;
+    z-index: 3;
+}
+.special {
+    cursor: pointer;
+}
+.special:hover{
+    color: #c0a066;
+}
+/*Section Six - Artist Lectures*/
+#lectures {
+     background: url(../img/lecture01.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.schools {
+    text-indent: 3em;
 }
