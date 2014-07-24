@@ -432,7 +432,7 @@ h1 {
 }
 #conversation .text {
     color: #565656;
-     margin: auto;
+    margin: auto;
     text-align: left;
     width: 600px;
 }
@@ -443,36 +443,19 @@ h1 {
 #exhibitions .sub-title {
     color: #c0a066;
 }
-#exhibitions .years,
-#exhibitions .special {
+#exhibitions .years {
     color: #ffffff;
+}
+#exhibitions .special {
+    color: #c0a066;
 }
 #exhibitions .exhibition-list {
     background-color: #000;
-    border: 1px solid #c0a066;
+    border: 1px solid rgba(192,160,102,0.7);
     color: #a6a5a5;
 }
-#exhibitions .special:hover {
-    color: #c0a066;
-}
 
-/*Section Four - Media and Publication*/
-.exhibition-list {
-    background-color: #ffffff;
-    margin: auto;
-    text-align: left;
-    width: 600px;
-    padding: 2em;
-    line-height: 1.5;
-    font-size: 0.8em;
-    background-color: rgba(255,255,255,0.7);
-    border: 1px solid #413428;
-}
-#media {
-    background-color: #ffffff;
-}
-
-/*Section Five - Artist Residencies*/
+/*Section Four - Artist Residencies*/
 #residency {
      background: url(../img/czech01.jpg) center center no-repeat;
     -webkit-background-size: cover;
@@ -508,12 +491,110 @@ strong {
     color: #000;
     z-index: 3;
 }
-.special {
+
+/*Section Five - Media and Publication*/
+.exhibition-list {
+    background-color: #ffffff;
+    margin: auto;
+    text-align: left;
+    width: 600px;
+    padding: 2em;
+    line-height: 1.5;
+    font-size: 0.8em;
+    background-color: rgba(255,255,255,0.7);
+    border: 1px solid #413428;
+}
+#media {
+    background-color: #ffffff;
+}
+#media .sub-title {
+    padding-bottom: 1.5em;
+}
+#media-list {
+    width: 670px;
+    margin: auto;
+    overflow: hidden;
+}
+#media-list li {
+    display: inline;
+    padding: 2em;
+}
+.media-row01 {
+    width: 670px;
+    height: 150px;
+}
+.media-container01,
+.media-container02 {
+    width:310px;
+    height: 150px;
+    border: 1px solid #ccc;
+    padding: 2px;
+}
+.media-container01 {
+    float: left;
+}
+.media-container02 {
+    float: right;
+}
+.media-image {
+    z-index: 3;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.media-link {
+    z-index: 3;
+    width: 150px;
+    height: 150px;
+    float: right;
     cursor: pointer;
 }
-.special:hover{
+.media-link a, 
+.media-link .special {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.media-link p {
+    padding: 10px;
+    font-size: 14px;
+}
+#gulfnews {
+    background: url(../img/gulfnews.png) center center no-repeat;
+}
+#bsak {
+    background: url(../img/bsak.png) center center no-repeat;
+}
+#bazzar-mag {
+    background: url(../img/k-mag.png) center center no-repeat;
+}
+#bazzar-mag-link,
+#gulfnews-link {
+    background-color: #c0a066;
+}
+#bsak-link {
+    background-color: #000;
+}
+#bsak-link a,
+#bsak-link .special {
     color: #c0a066;
 }
+#bsak-link:hover {
+    background-color: #ffffff;
+}
+
+#gulfnews-link a,
+#gulfnews-link .special,
+#bazzar-mag-link a,
+#bazzar-mag-link .special {
+    color: #000;
+}
+#gulfnews-link:hover,
+#bazzar-mag-link:hover {
+    background-color: #ffffff;
+}
+
 /*Section Six - Artist Lectures*/
 #lectures {
      background: url(../img/lecture01.jpg) center center no-repeat;
