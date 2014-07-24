@@ -566,6 +566,9 @@ strong {
 #bsak {
     background: url(../img/bsak.png) center center no-repeat;
 }
+#nyu {
+    background: url(../img/nyu-visit.png) center center no-repeat;
+}
 #bazzar-mag {
     background: url(../img/k-mag.png) center center no-repeat;
 }
@@ -573,14 +576,18 @@ strong {
 #gulfnews-link {
     background-color: #c0a066;
 }
-#bsak-link {
+#bsak-link,
+#nyu-link {
     background-color: #000;
 }
 #bsak-link a,
-#bsak-link .special {
+#bsak-link .special,
+#nyu-link a,
+#nyu-link .special {
     color: #c0a066;
 }
-#bsak-link:hover {
+#bsak-link:hover,
+#nyu-link:hover {
     background-color: #ffffff;
 }
 
@@ -609,7 +616,7 @@ strong {
 /*Section Seven - Artist Contact*/
 #contact .text {
     color: #565656;
-    width: 620px;
+    width: 520px;
 }
 /*Project Page*/
 /*Section One - Commission Summary*/
@@ -623,7 +630,6 @@ strong {
   background: url(../img/aa-bg02.jpg) center top no-repeat;
 /*  min-height: 820px;*/
   width: 100%;
-
 }
 .proj-info {
   margin: auto;
@@ -691,4 +697,55 @@ h4 {
 #womad {
   background: url(../img/womad.jpg) center top no-repeat;
   width: 100%;
+}
+
+/*Gallery Page*/
+/*Section One - Gallery Summary*/
+.gallery-landingpage {
+    background-color: #ffffff;
+}
+.gallery-landingpage .title {
+    color: #565656;
+    text-align: center;
+    padding: 0;
+}
+.gallery-landingpage .text {
+    padding-top: 4em;
+    color: #565656;
+    line-height: 1.5;
+}
+/*Section Two - Gallery USA*/
+#usa {
+    background: url(../img/usa.jpg) center top no-repeat;
+}
+.gallery {
+    padding-bottom: 0;
+}
+.gallery .sub-title,
+.gallery .writer {
+    text-align: center;
+    color: #ffffff;
+}
+.gallery .writer {
+    font-weight: 300;
+    padding-top: 3em;
+}
+.image-carousel{
+    background-color: #ffffff;
+    margin-top: 35em;
+}
+#uae {
+    background: url(../img/uae.jpg) center top no-repeat;
+}
+#germany {
+    background: url(../img/germany01.jpg) center top no-repeat;
+}
+#china {
+    background: url(../img/china01.jpg) center top no-repeat;
+}
+#kenya {
+    background: url(../img/kenya01.jpg) center top no-repeat;
+}
+#czech {
+    background: url(../img/czech.jpg) center top no-repeat;
 }
