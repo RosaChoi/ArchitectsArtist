@@ -655,7 +655,7 @@ strong {
     padding-bottom: 1.1em;
 }
 .videos {
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 
 /*Section Six - Artist Lectures*/
@@ -677,8 +677,17 @@ strong {
 /*Project Page*/
 /*Section One - Commission Summary*/
 .commission-s1 {
-  background-color: #ffffff;
-  padding: 4em 0;
+    background-color: #ffffff;
+}
+.commission-s1 h2,
+.commission-s1 p {
+    color: #696969;
+}
+.commission-s1 h2 {
+    padding-top: 3em;
+}
+.commission-s1 p {
+    padding-bottom: 3em;
 }
 
 /*Section Two - Commission Project01*/
@@ -730,25 +739,7 @@ h4 {
   color: #f4f4f4;
   font-size: 12px;
 }
-.final-products {
-  background-color: #ffffff;
-  width: 100%;
-  min-height: 800px;
-  text-align: center;
-}
-.image-carousel {
-  padding: 100px 0;
-}
-.details {
-  z-index: 15;
-  padding-top: 20px;
-  font-family: 'Lato', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-size: 14px;
-}
-.rihan {
-  box-shadow: 5px 5px 2px rgba(0,0,0,0.3);
-}
+
 /*Section Three - Commission Project02*/
 #womad {
   background: url(../img/womad.jpg) center top no-repeat;
@@ -789,13 +780,17 @@ h4 {
     font-weight: 300;
     padding-top: 3em;
 }
+.final {
+    min-height: 650px;
+    background-color: #ffffff;
+    padding-bottom: 4em;
+}
 .futurico-theme.slider-wrapper {
     position: relative;
+    top: 5em;
     width: 717px;
-    height: 480px;
-    background-color: #141517;
-    margin: 5em auto;
-    overflow: hidden;
+    height: 500px;
+    margin: auto;
 }
 .futurico-theme .nivoSlider {
     position: relative;
@@ -806,34 +801,33 @@ h4 {
     display: none;
     width: 717px;
     height: 480px;
-    /*position: absolute;*/
 }
 .futurico-theme .nivo-directionNav a {
     display: block;
     top: 60px;
-    font-family: 'Consolas', sans-serif;
-    font-size: 40px;
-    color: #000;
-    text-shadow: 0px 1px 1px rgba(255,255,255, .05);
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    font-size: 60px;
+    background-color: rgba(255,255,255, .5);
+    color: rgba(0,0,0, .7);
+    z-index: 10;
 }
 .futurico-theme a.nivo-prevNav { 
-    left: -40px; 
+    left: 5px; 
+    top: 3.5em;
 }
 .futurico-theme a.nivo-nextNav { 
-    right: -40px; 
+    right: 5px; 
+    top: 3.5em;
 }
 .futurico-theme .nivo-caption {
-    padding: 5px 0;
- 
-    font-family: Helvetica, Arial, sans-serif;
+    padding: 5px;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
     font-size: 12px;
-    color: #e1e1e1;
- 
-    background: #000000;
- 
-    -webkit-border-radius: 0 0 3px 3px;
-    -moz-border-radius: 0 0 3px 3px;
-    border-radius: 0 0 3px 3px;
+    color: #565656;
+    background: #ffffff;
 }
  
 .futurico-theme .nivo-caption span {
@@ -841,16 +835,16 @@ h4 {
     width: 5px;
     height: 5px;
     margin: 0 5px 1px 5px;
- 
+    color: red;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
- 
 .futurico-theme .nivo-caption em {
-    font-family: Georgia, sans-serif;
-    font-size: 11px;
-    color: #727581;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    background-color: #ffffff;
 }
 .wasel-story {
     width: 300px;
