@@ -75,7 +75,10 @@ a {
 #main-header ul > li > span.underline a {
     border-bottom: 1px solid #ffffff; 
 }
-
+.header a:active,
+.underline a:active {
+    color: #c0a066;
+}
 /*Main Navigation on the left*/
 #main-nav {
     position: fixed;
@@ -380,7 +383,7 @@ footer p a {
     color: #565656;
 }
 footer p a:hover {
-    color: #fb1d06;
+    color: #c0a066;
 }
 
 /*Artist Page*/
@@ -551,7 +554,7 @@ strong {
 }
 .media-link a, 
 .media-link .special {
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     line-height: 1.5;
     font-weight: 300;
@@ -572,34 +575,87 @@ strong {
 #bazzar-mag {
     background: url(../img/k-mag.png) center center no-repeat;
 }
+#frenchartfest-01 {
+    background: url(../img/frenchartfest01.png) center center no-repeat;
+}
+#frenchartfest-02 {
+    background: url(../img/frenchartfest02.png) center center no-repeat;
+}
+#f1-press {
+    background: url(../img/f1-gulfnew.png) center center no-repeat;
+}
+#foodforthought {
+    background: url(../img/foodforthought.png) center center no-repeat;
+}
+#khaleej {
+    background: url(../img/khaleej.png) center center no-repeat;
+}
+#smaltart {
+    background: url(../img/smalt.png) center center no-repeat;
+}
 #bazzar-mag-link,
-#gulfnews-link {
+#gulfnews-link,
+#foodforthought-link,
+#khaleej-link,
+#smaltart-link {
     background-color: #c0a066;
 }
 #bsak-link,
-#nyu-link {
+#nyu-link,
+#frenchartfest-01-link,
+#frenchartfest-02-link,
+#f1-press-link ,
+#artparis-link {
     background-color: #000;
 }
 #bsak-link a,
 #bsak-link .special,
 #nyu-link a,
-#nyu-link .special {
+#nyu-link .special,
+#frenchartfest-01-link a,
+#frenchartfest-01-link .special,
+#frenchartfest-02-link a,
+#frenchartfest-02-link .special,
+#f1-press-link a,
+#f1-press-link .special,
+#artparis-link a,
+#artparis-link .special {
     color: #c0a066;
 }
 #bsak-link:hover,
-#nyu-link:hover {
+#nyu-link:hover,
+#frenchartfest-01-link:hover,
+#frenchartfest-02-link:hover,
+#f1-press-link:hover,
+#artparis-link:hover {
     background-color: #ffffff;
 }
 
 #gulfnews-link a,
 #gulfnews-link .special,
 #bazzar-mag-link a,
-#bazzar-mag-link .special {
+#bazzar-mag-link .special,
+#foodforthought-link a,
+#foodforthought-link .special,
+#khaleej-link a,
+#khaleej-link .special,
+#smaltart-link a,
+#smaltart-link .special {
     color: #000;
 }
 #gulfnews-link:hover,
-#bazzar-mag-link:hover {
+#bazzar-mag-link:hover,
+#foodforthought-link:hover,
+#khaleej-link:hover,
+#smaltart-link:hover {
     background-color: #ffffff;
+}
+.videos h3 {
+    text-align: center;
+    padding-bottom: 1.1em;
+}
+.videos {
+    padding-bottom: 2em;
 }
 
 /*Section Six - Artist Lectures*/
@@ -701,6 +757,9 @@ h4 {
 
 /*Gallery Page*/
 /*Section One - Gallery Summary*/
+#active {
+    color: #c0a066;
+}
 .gallery-landingpage {
     background-color: #ffffff;
 }
@@ -730,9 +789,82 @@ h4 {
     font-weight: 300;
     padding-top: 3em;
 }
-.image-carousel{
-    background-color: #ffffff;
-    margin-top: 35em;
+.futurico-theme.slider-wrapper {
+    position: relative;
+    width: 717px;
+    height: 480px;
+    background-color: #141517;
+    margin: 5em auto;
+    overflow: hidden;
+}
+.futurico-theme .nivoSlider {
+    position: relative;
+    width: 717px;
+    height: 480px;
+}
+.futurico-theme .nivoSlider img {
+    display: none;
+    width: 717px;
+    height: 480px;
+    /*position: absolute;*/
+}
+.futurico-theme .nivo-directionNav a {
+    display: block;
+    top: 60px;
+    font-family: 'Consolas', sans-serif;
+    font-size: 40px;
+    color: #000;
+    text-shadow: 0px 1px 1px rgba(255,255,255, .05);
+}
+.futurico-theme a.nivo-prevNav { 
+    left: -40px; 
+}
+.futurico-theme a.nivo-nextNav { 
+    right: -40px; 
+}
+.futurico-theme .nivo-caption {
+    padding: 5px 0;
+ 
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #e1e1e1;
+ 
+    background: #000000;
+ 
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+ 
+.futurico-theme .nivo-caption span {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin: 0 5px 1px 5px;
+ 
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+ 
+.futurico-theme .nivo-caption em {
+    font-family: Georgia, sans-serif;
+    font-size: 11px;
+    color: #727581;
+}
+.wasel-story {
+    width: 300px;
+    height: 450px;
+    background-color: rgba(0,0,0,0.4);
+    margin: auto;
+}
+.story-text {
+    text-align: center;
+    color: #ccc;
+    padding: 40px 20px;
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-weight: lighter;
 }
 #uae {
     background: url(../img/uae.jpg) center top no-repeat;
@@ -747,5 +879,7 @@ h4 {
     background: url(../img/kenya01.jpg) center top no-repeat;
 }
 #czech {
+    padding-top: 3.5em;
     background: url(../img/czech.jpg) center top no-repeat;
 }
+

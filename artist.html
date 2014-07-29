@@ -20,7 +20,7 @@
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<!-- Rosa's Stylesheets -->
 	<link rel="stylesheet" href="css/style.css"/>
-	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53bcc39431030bf6"></script>
+
 </head>
 
 <body class="desktop">
@@ -35,6 +35,11 @@
 				<li>
 					<span class="header">
 						<a data-target-id="header-home" href="index.html">Home</a>
+					</span>
+				</li>
+				<li>
+					<span  class="header">
+						<a id="active" data-target-id="header-artist" href="artist.html">Artist</a>
 					</span>
 				</li>
 				<li>
@@ -73,7 +78,7 @@
 					<span><i></i></span>
 				</li>
 				<li class="nav-media">
-					<p><a data-target-id="media" href="#">Media</a></p>
+					<p><a data-target-id="media" href="#">Press</a></p>
 					<span><i></i></span>
 				</li>
 				<li class="nav-lectures">
@@ -88,7 +93,7 @@
 		</nav> 
 		<!-- Section1: Landing  -->
 		<div class="section artist-landingpage">
-			<h1 class="title">Wase Choi <br>Artist</h1>
+			<h1 class="title">Wasel Choi <br>Artist</h1>
 			<p class="small-quote">“My works influence my <span class="emphasis">personality</span>. I consider my paintings as my <span class="emphasis">autobiography</span>.”</p>
 		</div>
 		<!-- Section2: Q&A  -->
@@ -132,7 +137,7 @@
 			<h2 class="sub-title">Artist Residencies</h2>
 			<ul class="exhibition-list">
 				<li><h3 class="years">2011</h3></li>
-				<li><a href="#"><em class="special">Discovery Mission | Germany</em></a><br>
+				<li><em class="special">Discovery Mission | Germany</em></a><br>
 					Artist Residency Program was organized by German Embassy in Abu Dhabi and Dresden State Art Collections. Wasel created a body of artworks based on his exploration of cultural and artistic journey through out Germany.
 				</li>
 				<li><h3 class="years">2010</h3></li>
@@ -147,8 +152,9 @@
 		</div>
 		<!-- Section 5: Media & Publictions -->
 		<div id="media" class="section artist-media">
-			<h2 class="sub-title">Media & Publications</h2>
+			<h2 class="sub-title">Press & Publications</h2>
 			<ul id="media-list">
+				<h3>PRESS</h3>
 				<li>
 					<div class="media-row01">
 						<div class="media-container01">
@@ -172,15 +178,21 @@
 				<li>
 					<div class="media-row01">
 						<div class="media-container01">
-							<div class="media-link">
+							<div id="f1-press" class="media-image">
 							</div>
-							<div class="media-image">
+							<div id="f1-press-link" class="media-link">
+								<a href="http://gulfnews.com/a-fusion-between-motorsport-and-art-on-display-1.512350" target="_blank">
+									<p><em class="special">A fusion between motorsport and art on display<br></em>Gulfnews 2009</p>
+								</a>
 							</div>
 						</div>
 						<div class="media-container02">
-							<div class="media-image">
+							<div id="foodforthought" class="media-image">
 							</div>
-							<div class="media-link">
+							<div id="foodforthought-link" class="media-link">
+									<a href="friday.pdf" target="_blank">
+									<p><em class="special">There's art in cooking by Shiva Thekkepat<br></em>Friday Magazine 2008</p>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -188,9 +200,11 @@
 				<li>
 					<div class="media-row01">
 						<div class="media-container01">
-							<div class="media-image">
+							<div id="khaleej" class="media-image">
 							</div>
-							<div class="media-link">
+							<div id="khaleej-link" class="media-link">
+								<a href="khaleejcitytimes.pdf" target="_blank">
+									<p><em class="special">Life in Abstract by Layla Haroon<br></em>Khaleej City Times 2009</p>
 							</div>
 						</div>
 						<div class="media-container02">
@@ -208,15 +222,21 @@
 				<li>
 					<div class="media-row01">
 						<div class="media-container01">
-							<div class="media-image">
+							<div id="artparis" class="media-image">
 							</div>
-							<div class="media-link">
+							<div id="artparis-link" class="media-link">
+								<a href="http://www.blouinartinfo.com/news/story/275729/an-abu-dhabi-debut" target="_blank">
+									<p><em class="special">An Abu Dhabi Debut</em><br>Blouin Artinfo 2009</p>
+								</a>
 							</div>
 						</div>
 						<div class="media-container02">
-							<div class="media-image">
+							<div id="smaltart" class="media-image">
 							</div>
-							<div class="media-link">
+							<div id="smaltart-link" class="media-link">
+								<a href="http://moravskoslezsky.denik.cz/kultura_region/20090503_smalt_art_vitkovcie09.html" target="_blank">
+									<p><em class="special">Enamel Art Vitkovice 2009 brought new knowledge to authors</em><br>Denik.cz </p>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -228,13 +248,17 @@
 							</div>
 							<div id="bazzar-mag-link" class="media-link">
 								<a href="http://www.bazaar-magazine.com/baz/bazaar/index.php?show=eIndex&show_filter=view&action=article&art_id=ART00000000442" target="_blank">
-								<p><em class="special">UAEism, An Art Movement of Sharing</em> Bazzar Magazine, Kuwait 2009</p></a>
+									<p><em class="special">UAEism, An Art Movement of Sharing</em><br> Bazzar Magazine, Kuwait 2009</p>
+								</a>
 							</div>
 						</div>
 						<div class="media-container02">
-							<div class="media-image">
+							<div id="frenchartfest-01" class="media-image">
 							</div>
-							<div class="media-link">
+							<div id="frenchartfest-01-link" class="media-link">
+								<a href="http://www.uaeinteract.com/docs/Abu_Dhabi_welcomes_long_anticipated_French_Art_Festival/29124.htm" target="_blank">
+									<p><em class="special">Abu Dhabi Welcomes Long Anticipated French Art Festival<br></em>UAEinteract 2008</p>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -242,9 +266,12 @@
 				<li>
 					<div class="media-row01">
 						<div class="media-container01">
-							<div class="media-image">
+							<div id="frenchartfest-02-link" class="media-link">
+								<a href="http://www.france-moyenorient.com/-Societies-.html" target="_blank">
+									<p><em class="special">French Art Festival Premiers in the UAE<br></em>France-Moyenorient.com 2008</p>
+								</a>
 							</div>
-							<div class="media-link">
+							<div id="frenchartfest-02" class="media-image">
 							</div>
 						</div>
 						<div class="media-container02">
@@ -256,6 +283,11 @@
 					</div>
 				</li>
 			</ul>
+		</div>
+		<div class="videos">
+			<h3>Media | Video</h3>
+			<iframe class="vimeo" src="http://player.vimeo.com/video/101901545" width="500" height="375" frameborder="0" align="top" style="position:relative; left:10%" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<iframe class="vimeo" src="http://player.vimeo.com/video/101901545" width="500" height="375" frameborder="0" align="top" style="position:relative; left:10%" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 		<!-- Section 6: Lectures -->
 		<div id="lectures" class="section artist-lectures">
