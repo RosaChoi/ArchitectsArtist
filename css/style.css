@@ -599,12 +599,19 @@ strong {
 #burj {
     background: url(../img/burj.png) center center no-repeat;
 }
+#formula {
+    background: url(../img/formula.png) center center no-repeat;
+}
+#formulaf1 {
+    background: url(../img/formula02.png) center center no-repeat;
+}
 #bazzar-mag-link,
 #gulfnews-link,
 #foodforthought-link,
 #khaleej-link,
 #smaltart-link,
-#burj-link {
+#burj-link,
+#formula-link {
     background-color: #c0a066;
 }
 #bsak-link,
@@ -612,7 +619,8 @@ strong {
 #frenchartfest-01-link,
 #frenchartfest-02-link,
 #f1-press-link ,
-#artparis-link {
+#artparis-link,
+#formulaf1-link {
     background-color: #000;
 }
 #bsak-link a,
@@ -626,7 +634,9 @@ strong {
 #f1-press-link a,
 #f1-press-link .special,
 #artparis-link a,
-#artparis-link .special {
+#artparis-link .special,
+#formulaf1-link a,
+#formulaf1-link .special {
     color: #c0a066;
 }
 #bsak-link:hover,
@@ -634,7 +644,8 @@ strong {
 #frenchartfest-01-link:hover,
 #frenchartfest-02-link:hover,
 #f1-press-link:hover,
-#artparis-link:hover {
+#artparis-link:hover,
+#formulaf1-link:hover {
     background-color: #ffffff;
 }
 
@@ -649,7 +660,9 @@ strong {
 #smaltart-link a,
 #smaltart-link .special,
 #burj-link a,
-#burj-link .special {
+#burj-link .special,
+#formula-link a,
+#formula-link .special{
     color: #000;
 }
 #gulfnews-link:hover,
@@ -657,7 +670,8 @@ strong {
 #foodforthought-link:hover,
 #khaleej-link:hover,
 #smaltart-link:hover,
-#burj-link:hover {
+#burj-link:hover,
+#formula-link:hover {
     background-color: #ffffff;
 }
 .videos h3 {
@@ -770,12 +784,14 @@ h4 {
 }
 #burj-k .proj-info,
  #yas .proj-info,
- #nissan .proj-info {
+ #nissan .proj-info,
+ #f1 .proj-info {
   background-color: rgba(0,0,0,0.4);
 }
 #burj-k .client,
  #yas .client,
- #nissan .client {
+ #nissan .client,
+ #f1 .client {
     background-color: rgba(255,255,255,0.6)
 }
 #yas {
@@ -795,6 +811,10 @@ h4 {
 }
 #artcar {
     background: url(../img/artcar.jpg) center top no-repeat;
+    height: 100%;
+}
+#f1 {
+    background: url(../img/racing.jpg) center top no-repeat;
     height: 100%;
 }
 
