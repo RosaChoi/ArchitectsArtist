@@ -793,6 +793,10 @@ h4 {
     background: url(../img/nissan.jpg) center top no-repeat;
     height: 100%;
 }
+#artcar {
+    background: url(../img/artcar.jpg) center top no-repeat;
+    height: 100%;
+}
 
 /*Gallery Page*/
 /*Section One - Gallery Summary*/
