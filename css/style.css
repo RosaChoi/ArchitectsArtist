@@ -593,11 +593,18 @@ strong {
 #smaltart {
     background: url(../img/smalt.png) center center no-repeat;
 }
+#artparis {
+    background: url(../img/artistdinner.png) center center no-repeat;
+}
+#burj {
+    background: url(../img/burj.png) center center no-repeat;
+}
 #bazzar-mag-link,
 #gulfnews-link,
 #foodforthought-link,
 #khaleej-link,
-#smaltart-link {
+#smaltart-link,
+#burj-link {
     background-color: #c0a066;
 }
 #bsak-link,
@@ -640,14 +647,17 @@ strong {
 #khaleej-link a,
 #khaleej-link .special,
 #smaltart-link a,
-#smaltart-link .special {
+#smaltart-link .special,
+#burj-link a,
+#burj-link .special {
     color: #000;
 }
 #gulfnews-link:hover,
 #bazzar-mag-link:hover,
 #foodforthought-link:hover,
 #khaleej-link:hover,
-#smaltart-link:hover {
+#smaltart-link:hover,
+#burj-link:hover {
     background-color: #ffffff;
 }
 .videos h3 {
@@ -655,7 +665,11 @@ strong {
     padding-bottom: 1.1em;
 }
 .videos {
+    height: 1100px;
     padding-bottom: 3em;
+}
+iframe {
+    margin: 2em auto
 }
 
 /*Section Six - Artist Lectures*/
@@ -745,6 +759,40 @@ h4 {
   background: url(../img/womad.jpg) center top no-repeat;
   width: 100%;
 }
+#womad .final {
+    padding-bottom: 0;
+}
+
+/*Section Seven - Commission Project06*/
+#burj-k {
+  background: url(../img/burj_khalifa.jpg) center top no-repeat;
+  width: 100%;
+}
+#burj-k .proj-info,
+ #yas .proj-info,
+ #nissan .proj-info {
+  background-color: rgba(0,0,0,0.4);
+}
+#burj-k .client,
+ #yas .client,
+ #nissan .client {
+    background-color: rgba(255,255,255,0.6)
+}
+#yas {
+    background: url(../img/yas01.jpg) center top no-repeat;
+    height: 100%;
+}
+.painting-title {
+     font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #c0a066;
+}
+#nissan {
+    background: url(../img/nissan.jpg) center top no-repeat;
+    height: 100%;
+}
 
 /*Gallery Page*/
 /*Section One - Gallery Summary*/
@@ -783,13 +831,13 @@ h4 {
 .final {
     min-height: 650px;
     background-color: #ffffff;
-    padding-bottom: 4em;
+    padding-bottom: 3em;
 }
 .futurico-theme.slider-wrapper {
     position: relative;
     top: 5em;
     width: 717px;
-    height: 500px;
+    height: 480px;
     margin: auto;
 }
 .futurico-theme .nivoSlider {
@@ -804,21 +852,21 @@ h4 {
 }
 .futurico-theme .nivo-directionNav a {
     display: block;
-    top: 60px;
+    top: 70px;
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 60px;
-    background-color: rgba(255,255,255, .5);
-    color: rgba(0,0,0, .7);
+    background-color: #ffffff;
+    color: rgba(0,0,0, .4);
     z-index: 10;
 }
 .futurico-theme a.nivo-prevNav { 
-    left: 5px; 
+    left: 0px; 
     top: 3.5em;
 }
 .futurico-theme a.nivo-nextNav { 
-    right: 5px; 
+    right: 0px; 
     top: 3.5em;
 }
 .futurico-theme .nivo-caption {
@@ -828,6 +876,7 @@ h4 {
     font-size: 12px;
     color: #565656;
     background: #ffffff;
+    text-align: center;
 }
  
 .futurico-theme .nivo-caption span {
@@ -844,6 +893,7 @@ h4 {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: 14px;
+    font-weight: 300;
     background-color: #ffffff;
 }
 .wasel-story {

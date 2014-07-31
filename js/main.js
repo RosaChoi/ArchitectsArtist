@@ -50,7 +50,11 @@ function mainNavClicked() {
 	$('body, html').animate({scrollTop: targetY}, FAST_SCROLL);
 };
 
-$('#slider').nivoSlider({
+$(window).load(function() {
+    	$('#slider, #slider2,#slider3, #slider4').nivoSlider();
+	});
+
+$('#slider, #slider2, #slider3, #slider4').nivoSlider({
     effect: 'fade',               // Specify sets like: 'fold,fade,sliceDown'
     animSpeed: 500,                 // Slide transition speed
     pauseTime: 3000,                // How long each slide will show
@@ -59,7 +63,7 @@ $('#slider').nivoSlider({
     controlNav: false,               // 1,2,3... navigation
     controlNavThumbs: false,        // Use thumbnails for Control Nav
     pauseOnHover: true,             // Stop animation while hovering
-    manualAdvance: true,           // Force manual transitions
+    manualAdvance: false,           // Force manual transitions
     prevText: '<',               // Prev directionNav text
     nextText: '>',               // Next directionNav text
     randomStart: false,             // Start on a random slide
