@@ -51,10 +51,10 @@ function mainNavClicked() {
 };
 
 $(window).load(function() {
-    	$('#slider, #slider2,#slider3, #slider4, #slider5').nivoSlider();
+    	$('#slider, #slider2,#slider3, #slider4, #slider5, #slider6').nivoSlider();
 	});
 
-$('#slider, #slider2, #slider3, #slider4, #slider5').nivoSlider({
+$('#slider, #slider2, #slider3, #slider4, #slider5, #slider6').nivoSlider({
     effect: 'fade',               // Specify sets like: 'fold,fade,sliceDown'
     animSpeed: 500,                 // Slide transition speed
     pauseTime: 3000,                // How long each slide will show

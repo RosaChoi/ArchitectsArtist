@@ -826,6 +826,10 @@ a .special-news:hover {
     background: url(../img/racing.jpg) center top no-repeat;
     height: 100%;
 }
+#zafco {
+    background: url(../img/jafco.jpg) center top no-repeat;
+    width: 100%;
+}
 
 /*Gallery Page*/
 /*Section One - Gallery Summary*/
