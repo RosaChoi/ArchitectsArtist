@@ -767,6 +767,15 @@ h4 {
   color: #f4f4f4;
   font-size: 12px;
 }
+.special-news {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+}
+a .special-news:hover {
+    color: #c0a066;
+}
 
 /*Section Three - Commission Project02*/
 #womad {
