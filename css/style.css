@@ -726,7 +726,7 @@ iframe {
 }
 .proj-info {
   margin: auto;
-  background-color: rgba(255,255,255,0.4);
+  background-color: rgba(255,255,255,0.2);
   width: 520px;
   color: #000;
   z-index: 5;
@@ -753,9 +753,9 @@ iframe {
 }
 .sixtysix-description {
   margin: 2em auto;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(225,225,225,0.7);
   width: 482px;
-  color: #f4f4f4;
+  color: #000;
   padding: 1.2em;
 }
 h4 {
@@ -764,8 +764,9 @@ h4 {
 }
 .sixtysix-description p.text {
   width: 482px;
-  color: #f4f4f4;
-  font-size: 12px;
+  color: #000;
+  font-size: 14px;
+
 }
 .special-news {
     color: #ffffff;
