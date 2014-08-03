@@ -922,8 +922,12 @@ h4 {
 #usa {
     background: url(../img/usa.jpg) center top no-repeat;
 }
+#usa .wasel-story {
+    height: 250px;
+}
 .gallery {
     padding-bottom: 0;
+    height: 725px;
 }
 .gallery .sub-title,
 .gallery .writer {
@@ -932,7 +936,7 @@ h4 {
 }
 .gallery .writer {
     font-weight: 300;
-    padding-top: 3em;
+    padding: 6em 0;
 }
 .final {
     min-height: 650px;
@@ -1003,18 +1007,30 @@ h4 {
     background-color: #ffffff;
 }
 .wasel-story {
-    width: 300px;
-    height: 450px;
-    background-color: rgba(0,0,0,0.4);
+    width: 400px;
+    background-color: rgba(0,0,0,0.6);
     margin: auto;
 }
 .story-text {
-    text-align: center;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
     color: #ccc;
     padding: 40px 20px;
-    font-size: 1.2em;
     line-height: 1.5;
-    font-weight: lighter;
+    font-weight: 400;
+}
+#singapore {
+    background: url(../img/singapore.jpg) center top no-repeat;
+    padding-top: 4em;
+}
+#singapore .writer {
+    padding-top: 12em;
+    padding-bottom: 2em;
+}
+#singapore .wasel-story {
+    height: 350px;
 }
 #uae {
     background: url(../img/uae.jpg) center top no-repeat;
