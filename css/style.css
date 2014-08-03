@@ -698,15 +698,25 @@ strong {
 iframe {
     margin: 2em auto
 }
-.media-brands {
+.media-brands,
+.company-logos {
     width: 100%;
-    /*background: #1e1916;*/
+    margin: auto;
     background:#ffffff;
     border-top: 2px solid #696969;
     border-bottom: 2px solid #696969;
 }
-.brand-icons li {
+.company-logos {
+    padding: 2em 0;
+}
+.brand-icons li,
+.logo-icons li {
     display: inline;
+    padding: 10px;
+}
+.company-logos ul {
+    margin: auto;
+    max-width: 900px;
 }
 .bbcnews {
     color: #c72c28;
@@ -799,9 +809,7 @@ h4 {
     -webkit-font-smoothing: antialiased;
     font-weight: 400;
 }
-a .special-news:hover {
-    color: #c0a066;
-}
+
 
 /*Section Three - Commission Project02*/
 #womad {
@@ -810,8 +818,8 @@ a .special-news:hover {
 }
 #womad .final {
     padding-bottom: 0;
+    padding-top: 4em;
 }
-
 /*Section Seven - Commission Project06*/
 #burj-k {
   background: url(../img/burj_khalifa.jpg) center top no-repeat;
@@ -855,6 +863,41 @@ a .special-news:hover {
 #zafco {
     background: url(../img/jafco.jpg) center top no-repeat;
     width: 100%;
+}
+.press-buttons {
+    padding: 20px 10px;
+}
+.press-buttons-list li {
+    width: 100px;
+    padding: 5px 5px;
+    border-bottom: 2px solid #ffffff;
+    /*background: rgba(255,255,255, 0.7);*/
+    display: inline;
+    border-radius: 3px;
+    color: #696969;
+    font-size: 14px;
+}
+.press-buttons-list li:first-child {
+    margin-left: 1.5em;
+}
+.press-buttons-list li:hover {
+    background: #ffffff;
+}
+.press-buttons-list .special-news {
+    color: #000;
+    font-weight: 700;
+}
+#nissan .sixtysix-description {
+    background-color: rgba(255,255,255,0.7);
+}
+.emirati-title {
+    text-align: center;
+    padding-top: 5px;
+}
+.emirati-title .painting-title {
+    color: #1e1590;
+    font-size: 12px;
+    padding: 5px 0;
 }
 
 /*Gallery Page*/
