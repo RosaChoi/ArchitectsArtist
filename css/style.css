@@ -413,9 +413,9 @@ h1 {
     padding-top: 2em;
     font-style: italic;
 }
-.emphasis {
+/*.emphasis {
     color: #c0a066;
-}
+}*/
 /*Section Two - Q &A*/
 #conversation {
     background-color: #ffffff;
@@ -513,8 +513,8 @@ strong {
 #media {
     background-color: #ffffff;
 }
-#media .sub-title {
-    padding-bottom: 1.5em;
+.press-contact {
+    padding-bottom: 6.5em;
 }
 #media-list {
     width: 670px;
@@ -964,6 +964,7 @@ h4 {
     display: block;
     top: 70px;
     font-family: 'Lato', sans-serif;
+    /*font-family: 'Garamond W01',georgia, serif;*/
     -webkit-font-smoothing: antialiased;
     font-weight: 100;
     font-size: 60px;
@@ -1007,16 +1008,20 @@ h4 {
     background-color: #ffffff;
 }
 .wasel-story {
-    width: 400px;
-    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0;
+    left: 31%;
+    width: 500px;
+    background-color: rgba(255,255,255,0.6);
     margin: auto;
+    vertical-align: baseline;
 }
 .story-text {
     text-align: left;
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
-    font-size: 18px;
-    color: #ccc;
+    font-size: 16px;
+    color: #000;
     padding: 40px 20px;
     line-height: 1.5;
     font-weight: 400;
@@ -1038,14 +1043,54 @@ h4 {
 #germany {
     background: url(../img/germany01.jpg) center top no-repeat;
 }
+#germany .writer {
+    padding-top: 3em;
+    padding-bottom: 12em;
+}
 #china {
     background: url(../img/china01.jpg) center top no-repeat;
 }
+#china {
+    padding: 4em 0;
+    height: 400px
+}
+#china .writer {
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
 #kenya {
     background: url(../img/kenya01.jpg) center top no-repeat;
+}
+#kenya .writer {
+    padding: 1em 0;
 }
 #czech {
     padding-top: 3.5em;
     background: url(../img/czech.jpg) center top no-repeat;
 }
-
+.slidedown {
+    width: 100px;
+    height: 20px;
+    margin: auto;
+    border-bottom: 1px dotted rgba(255,255,255,0.3);
+    padding: 5px;
+    /*background-color: rgba(0,0,0,0.4)*/
+}
+/*.story-button {
+    color: rgba(255,255,255,0.7);
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.story-button:hover {
+    color: #ffffff;
+    font-weight: 700;
+}
+.fa-times-circle {
+    color: #000;
+}
+.fa-times-circle:hover {
+    color: #ffffff;
+}
+*/

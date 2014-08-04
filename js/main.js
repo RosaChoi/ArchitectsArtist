@@ -29,6 +29,15 @@ function logoClicked() {
 	$('body, html').animate({scrollTop: 0}, 900);
 };
 
+//Scroll to Contact 
+$('.gotocontact').click(contactClicked);
+function contactClicked() {
+	event.preventDefault();
+	var contactY = $('#contact').offset().top;
+	// console.log(logoClicked);
+	$('body, html').animate({scrollTop: contactY}, FAST_SCROLL);
+};
+
 // Logo Hover
 $('.logo').mouseenter(function() {
 	$('.home').fadeIn(1500);
@@ -50,11 +59,12 @@ function mainNavClicked() {
 	$('body, html').animate({scrollTop: targetY}, FAST_SCROLL);
 };
 
+// Image Carousel
 $(window).load(function() {
     	$('#slider, #slider2,#slider3, #slider4, #slider5, #slider6').nivoSlider();
 	});
 
-$('#slider, #slider2, #slider3, #slider4, #slider5, #slider6').nivoSlider({
+$('#slider, #slider2, #slider3, #slider4, #slider5, #slider6, #slider-g').nivoSlider({
     effect: 'fade',               // Specify sets like: 'fold,fade,sliceDown'
     animSpeed: 500,                 // Slide transition speed
     pauseTime: 3000,                // How long each slide will show
@@ -73,3 +83,18 @@ $('#slider, #slider2, #slider3, #slider4, #slider5, #slider6').nivoSlider({
     lastSlide: function(){},        // Triggers when last slide is shown
     afterLoad: function(){}         // Triggers when slider has loaded
 });
+
+// Read box show & hide
+// $('.story-button').click(storyButtonClicked);
+// function storyButtonClicked() {
+// 	event. preventDefault();
+// 	var read = $(this).data('target-id');
+// 	$('#'+read).show();
+// };
+
+// $('a .fa').click(faButtonClicked);
+// function faButtonClicked() {
+// 	event. preventDefault();
+// 	$('.wasel-story').hide();
+// };
+
