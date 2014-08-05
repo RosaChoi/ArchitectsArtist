@@ -346,6 +346,9 @@ a.profile {
     background-color: #f4f4f4;
     color: #565656;
 }
+#contact {
+    padding-bottom: 0;
+}
 .five p {
     font-size: 0.8em;
     width: 580px;
@@ -918,6 +921,19 @@ h4 {
     color: #565656;
     line-height: 1.5;
 }
+.company-logos .collectors {
+    text-align: left;
+    line-height: 2;
+    width: 600px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #000;
+    padding: 2em 0;
+}
+.collectors li {
+    list-style: disc;
+}
 /*Section Two - Gallery USA*/
 #usa {
     background: url(../img/usa.jpg) center top no-repeat;
@@ -939,10 +955,40 @@ h4 {
     padding: 6em 0;
 }
 .final {
-    min-height: 650px;
+    min-height: 600px;
     background-color: #ffffff;
     padding-bottom: 3em;
 }
+.final-kenya,
+.final-china,
+.final-germany {
+    min-height: 750px;
+    padding-bottom: 6em;
+}
+.futurico-theme.slider-wrapper-a {
+    position: relative;
+    top: 5em;
+    width: 480px;
+    height: 717px;
+    margin: auto;
+}
+.futurico-theme #slider-d,
+.futurico-theme #slider-e,
+.futurico-theme #slider-f,
+.futurico-theme #slider-b {
+    position: relative;
+    width: 480px;
+    height: 717px;
+}
+.futurico-theme #slider-e img,
+.futurico-theme #slider-d img,
+.futurico-theme #slider-f img,
+.futurico-theme #slider-b img {
+    display: none;
+    width: 480px;
+    height: 717px;
+}
+
 .futurico-theme.slider-wrapper {
     position: relative;
     top: 5em;
@@ -1094,3 +1140,9 @@ h4 {
     color: #ffffff;
 }
 */
+.embedcontact {
+    padding-top: 3em;
+    margin: auto;
+    max-width: 600px;
+    /*background-color: #ffffff;*/
+}
