@@ -757,6 +757,27 @@ iframe {
 }
 
 /*Section Two - Commission Project01*/
+
+.reference {
+    overflow: hidden;
+    width: 540px;
+    background-color: rgba(0,0,0, 0.05);
+    height: 4em;
+    margin: auto;
+    padding: 10px 0;
+    border: 1px solid #696969;
+    margin-bottom: 2em;
+    z-index: 5;
+}
+.ref01,
+.ref02 {
+    text-align: center;
+    padding: 5px 0;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+     color: #000;
+}
 #sixtysix {
   background: url(../img/aa-bg02.jpg) center top no-repeat;
 /*  min-height: 820px;*/
@@ -868,7 +889,7 @@ h4 {
     width: 100%;
 }
 .press-buttons {
-    padding: 20px 10px;
+    padding: 10px 10px;
 }
 .press-buttons-list li {
     width: 100px;
@@ -961,10 +982,12 @@ h4 {
 }
 .final-kenya,
 .final-china,
-.final-germany {
+.final-germany,
+.final-singa {
     min-height: 750px;
     padding-bottom: 6em;
 }
+
 .futurico-theme.slider-wrapper-a {
     position: relative;
     top: 5em;
