@@ -64,7 +64,7 @@ $(window).load(function() {
     	$('#slider, #slider2,#slider3, #slider4, #slider5, #slider6, #slider-a, #slider-b, #slider-c, #slider-d, #slider-e, #slider-f, #slider-g').nivoSlider();
 	});
 
-$('#slider, #slider2, #slider3, #slider4, #slider5, #slider6, #slider-g, #slider-f, #slider-e, #slider-d, #slider-c, #slider-b').nivoSlider({
+$('#slider, #slider2, #slider3, #slider4, #slider5, #slider6, #slider-g, #slider-f, #slider-e, #slider-d, #slider-c, #slider-b, #slider-a').nivoSlider({
     effect: 'fade',               // Specify sets like: 'fold,fade,sliceDown'
     animSpeed: 500,                 // Slide transition speed
     pauseTime: 3000,                // How long each slide will show

@@ -983,7 +983,8 @@ h4 {
 .final-kenya,
 .final-china,
 .final-germany,
-.final-singa {
+.final-singa,
+.final-usa {
     min-height: 750px;
     padding-bottom: 6em;
 }
@@ -994,6 +995,23 @@ h4 {
     width: 480px;
     height: 717px;
     margin: auto;
+}
+.futurico-theme.slider-wrapper-b {
+    position: relative;
+    top: 5em;
+    width: 717px;
+    height: 717px;
+    margin: auto;
+}
+.futurico-theme #slider-a {
+    position: relative;
+    width: 717px;
+    height: 717px;
+}
+.futurico-theme #slider-a img {
+    display: none;
+    width: 717px;
+    height: 717px;
 }
 .futurico-theme #slider-d,
 .futurico-theme #slider-e,
