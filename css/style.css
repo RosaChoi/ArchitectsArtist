@@ -163,7 +163,7 @@ a {
 /*Section 01 - LandingPage*/
 .section {
     position: relative; 
-    text-align: center;
+    text-align: left;
     padding: 125px 0; 
 }
 .one {
@@ -205,6 +205,7 @@ h1 {
 
 /*Section 02 - Mission*/
 .text {
+    font-size: 17px;
     line-height: 1.5;
     color: #c0a066;
     letter-spacing: 1px; 
@@ -235,16 +236,17 @@ h2 {
     text-align: left;
     padding-bottom: 6em;
 }
+
 .types {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
     font-weight: 300;
     height: 500px;
+    width: 850px;
     margin: auto;
 }
 .types li {
-    margin: auto 0;
     margin: 0 0.5em;
     text-align: center;
     display: inline-block;
@@ -334,7 +336,7 @@ a.profile {
      font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
     color: #ffffff;
     padding: 2.5em 0;
@@ -353,6 +355,11 @@ a.profile {
     font-size: 0.8em;
     width: 580px;
     padding-bottom: 2em;
+}
+.contact-info {
+    width: 580px;
+    margin: auto;
+    text-align: center;
 }
 .contact-info li {
     display: inline-block;
@@ -406,15 +413,17 @@ h1 {
     line-height: 2;
 }
 .small-quote {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
     position: relative;
     bottom: -4em;
     left: 10em;
     background-color: #000;
     width: 640px;
-    height: 50px;
-    color: #f4f4f4;
-    padding-top: 2em;
-    font-style: italic;
+    height: 100px;
+    color: #c0a066;
+    padding: 1.1em;
 }
 /*.emphasis {
     color: #c0a066;
@@ -518,6 +527,7 @@ strong {
 }
 .press-contact {
     padding-bottom: 6.5em;
+    text-align: center;
 }
 #media-list {
     width: 670px;
@@ -739,6 +749,7 @@ iframe {
 #contact .text {
     color: #565656;
     width: 520px;
+    text-align: center;
 }
 /*Project Page*/
 /*Section One - Commission Summary*/
@@ -930,16 +941,30 @@ h4 {
     color: #c0a066;
 }
 .gallery-landingpage {
-    background-color: #ffffff;
+    background-color: #000;
+    padding-bottom: 60px;
+}
+.gallery-landingpage .ref02 {
+    padding: 15px;
 }
 .gallery-landingpage .title {
-    color: #565656;
+    color: #ffffff;
     text-align: center;
     padding: 0;
 }
+.gallery-landingpage .ref02,
+#email-howdy {
+    color: #ccc;
+}
+#email-howdy {
+    font-weight: 300;
+}
+#email-howdy:hover {
+    color: #c0a066;
+}
 .gallery-landingpage .text {
-    padding-top: 4em;
-    color: #565656;
+    padding: 4em 0;
+    color: #c0a066;
     line-height: 1.5;
 }
 .company-logos .collectors {
@@ -1109,7 +1134,7 @@ h4 {
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
     color: #000;
-    padding: 40px 20px;
+    padding: 20px;
     line-height: 1.5;
     font-weight: 400;
 }
@@ -1122,7 +1147,7 @@ h4 {
     padding-bottom: 2em;
 }
 #singapore .wasel-story {
-    height: 350px;
+    height: 265px;
 }
 #uae {
     background: url(../img/uae.jpg) center top no-repeat;
