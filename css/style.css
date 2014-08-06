@@ -41,7 +41,7 @@ a {
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 300;
-     position: absolute;
+    position: absolute;
     top: 22px;
     left: 85px;
     display: none;
@@ -236,7 +236,6 @@ h2 {
     text-align: left;
     padding-bottom: 6em;
 }
-
 .types {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -285,6 +284,9 @@ h2 {
 }
 .button:hover {
     background: rgba(192,160,102,0.5);
+}
+.types-mobile {
+    display: none;
 }
 
 /*Section 04 - Artist*/
@@ -1210,5 +1212,60 @@ h4 {
     padding-top: 3em;
     margin: auto;
     max-width: 600px;
-    /*background-color: #ffffff;*/
+}
+
+/*Media Query: max-width 768*/
+@media screen and (max-width: 768px) {
+    /*Home Page*/
+    .logo-hover .home {
+        opacity: 0;
+    }
+    .types {
+        width: 100%;
+    }
+    .types li {
+        width: 220px;
+        margin: auto;
+        position: relative;
+        left: 50px;
+    }
+
+}
+
+
+/*Media Query: max-width 480 */
+@media screen and (max-width: 480px) {
+    /*Home Page*/
+    #main-nav {
+        display: none;
+    }
+    #main-header ul {
+        line-height: 40px;
+        padding: 0 2em;
+    }
+    .landing-page .title {
+        padding-left: 0;
+    }
+    #news {
+        display: none;
+    }
+    #mission .text,
+    #services .text {
+        width: 70%;
+    }
+    .types {
+        display: none;
+    }
+    .wasel-quote .pullquote {
+        display: none;
+    }
+    .contact-info {
+        width: 100%;
+    }
+    .embedcontact {
+        padding-left: 2em;
+        max-width: 450px;
+
+    }
+
 }
