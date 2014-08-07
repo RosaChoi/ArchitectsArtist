@@ -508,7 +508,27 @@ strong {
     color: #000;
     z-index: 3;
 }
-
+#conversation .text {
+    padding-bottom: 2em;
+}
+.qa {
+    padding-top: 1.2em;
+    width: 580px;
+    height: 100%;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 14px;
+    border-top: 1px dotted rgba(0,0,0,0.3)
+}
+.md,
+.wc {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.questions li {
+    padding: 1.2em 0;
+}
 /*Section Five - Media and Publication*/
 .exhibition-list {
     background-color: #ffffff;
