@@ -98,21 +98,5 @@ $('#slider, #slider2, #slider3, #slider4, #slider5, #slider6, #slider-g, #slider
 // 	$('.wasel-story').hide();
 // };
 
-// WuFoo Contact Form
-// var zs5vzix0oiogdm;(function(d, t) {
-// 	var s = d.createElement(t), options = {
-// 	'userName':'createwaselrosa',
-// 	'formHash':'zs5vzix0oiogdm',
-// 	'autoResize':true,
-// 	'height':'524',
-// 	'async':true,
-// 	'host':'wufoo.com',
-// 	'header':'show',
-// 	'ssl':true};
-// 	s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-// 	s.onload = s.onreadystatechange = function() {
-// 		var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-// 		try { zs5vzix0oiogdm = new WufooForm();zs5vzix0oiogdm.initialize(options);zs5vzix0oiogdm.display(); } catch (e) {}};
-// 		var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-// 	})
-// 	(document, 'script');
+// For media Query menu
+

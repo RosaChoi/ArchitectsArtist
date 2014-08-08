@@ -35,6 +35,9 @@ a {
     left: 20px;
     cursor: pointer;
 }
+#menu {
+    display: none;
+}
 .home {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -172,7 +175,7 @@ a {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 740px;
+    height: 700px;
     border-bottom: 2px solid rgba(0,0,0,0.8);
 }
 h1 {
@@ -184,18 +187,6 @@ h1 {
     text-align: left;
 }
 /*News & Updates*/
-#news {
-    font-size: 1.1em;
-    color: #ffffff;
-    z-index: 5;
-    padding: 1.2em;
-    border-left: 4px solid #ffffff;
-    width: 80%;
-    text-align: left;
-    position: absolute;
-    bottom: 1.2em;
-  /*display: none;*/
-}
 .highlight {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -242,7 +233,7 @@ h2 {
     text-transform: uppercase;
     font-weight: 300;
     height: 500px;
-    width: 850px;
+    width: 807px;
     margin: auto;
 }
 .types li {
@@ -300,12 +291,12 @@ h2 {
 .wasel-quote {
     width: 64%;
     font-style: italic;
-    font-size: 1.5em;
+    font-size: 1.1em;
     line-height: 1.8;
     margin: auto;
     text-align: left;
     position: relative;
-    top: 4em;
+    top: 6em;
     padding: 2em 2em;
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
@@ -326,13 +317,6 @@ a.profile {
 .profile:hover {
     background-color: #ffffff;
     color: #000;
-}
-.q-name {
-    font-family: 'Lato', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 300;
 }
 .bio {
      font-family: 'Lato', sans-serif;
@@ -384,18 +368,27 @@ em {
     font-weight: bold;
 }
 /*Footer*/
-footer p {
+footer  {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
-    font-size: 12px;
+    font-size: 14px;
     height: 20px; 
     padding: 20px 20px;
 }
-footer p a {
+footer a {
     color: #565656;
 }
-footer p a:hover {
+.footer-section li {
+    display: inline;
+}
+#copy-right a:hover {
     color: #c0a066;
+}
+#credits {
+    float: right;
+}
+.dushane:hover {
+    color: #f25252;
 }
 
 /*Artist Page*/
@@ -550,6 +543,14 @@ strong {
 .press-contact {
     padding-bottom: 6.5em;
     text-align: center;
+    font-size: 15px;
+    text-transform: none;
+}
+.press-contact a {
+    color: inherit;
+}
+.press-contact a:hover {
+    color: #000;
 }
 #media-list {
     width: 670px;
@@ -644,9 +645,6 @@ strong {
 #formula {
     background: url(../img/formula.png) center center no-repeat;
 }
-/*#formulaf1 {
-    background: url(../img/formula02.png) center center no-repeat;
-}*/
 #bazzar-mag-link,
 #gulfnews-link,
 #foodforthought-link,
@@ -661,7 +659,6 @@ strong {
 #frenchartfest-01-link,
 #frenchartfest-02-link,
 #bbcpress-link,
-/*#formulaf1-link */
 #f1-press-link ,
 #artparis-link {
     background-color: #000;
@@ -679,9 +676,7 @@ strong {
 #f1-press-link a,
 #f1-press-link .special,
 #artparis-link a,
-#artparis-link .special
-/*#formulaf1-link a,
-#formulaf1-link .special*/ {
+#artparis-link .special {
     color: #c0a066;
 }
 #bsak-link:hover,
@@ -690,8 +685,7 @@ strong {
 #frenchartfest-02-link:hover,
 #f1-press-link:hover,
 #bbcpress-link:hover,
-#artparis-link:hover
-/*#formulaf1-link:hover*/ {
+#artparis-link:hover {
     background-color: #ffffff;
 }
 #gulfnews-link a,
@@ -1076,7 +1070,6 @@ h4 {
     width: 480px;
     height: 717px;
 }
-
 .futurico-theme.slider-wrapper {
     position: relative;
     top: 5em;
@@ -1098,7 +1091,6 @@ h4 {
     display: block;
     top: 70px;
     font-family: 'Lato', sans-serif;
-    /*font-family: 'Garamond W01',georgia, serif;*/
     -webkit-font-smoothing: antialiased;
     font-weight: 100;
     font-size: 60px;
@@ -1208,7 +1200,21 @@ h4 {
     margin: auto;
     border-bottom: 1px dotted rgba(255,255,255,0.3);
     padding: 5px;
-    /*background-color: rgba(0,0,0,0.4)*/
+}
+.final-czech {
+    padding: 2em 0;
+}
+.final-usa .futurico-theme a.nivo-prevNav,
+.final-usa .futurico-theme a.nivo-nextNav,
+.final-singa .futurico-theme a.nivo-prevNav,
+.final-singa .futurico-theme a.nivo-nextNav,
+.final-germany .futurico-theme a.nivo-prevNav,
+.final-germany .futurico-theme a.nivo-nextNav,
+.final-china .futurico-theme a.nivo-prevNav,
+.final-china .futurico-theme a.nivo-nextNav,
+.final-kenya .futurico-theme a.nivo-prevNav,
+.final-kenya .futurico-theme a.nivo-nextNav {
+    top: 5.5em;
 }
 /*.story-button {
     color: rgba(255,255,255,0.7);
@@ -1371,28 +1377,52 @@ h4 {
     padding: 0;
     font-size: 1.2em;
     }
+    #main-header ul {
+        clear:both;    
+    }
+   /* #main-header ul {
+        height: 480px;
+        position: relative;
+        top: 5em;
+        background-color: #000;
+        display: none;
+    }
     #main-header ul > li {
     display: block;
-    font-family: 'Lato', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-size: 16px; 
-    font-weight: 400;
-    background-color: red;
-}
-.header a,
-.underline a {
-    margin: 0 20px;
-    cursor: pointer;
-    text-transform: uppercase;
-    color: #fff;
-    position: relative; 
-    display: none;
-}
-#main-header ul > li > span.underline a {
-    border-bottom: 1px solid #ffffff; 
-}
-.header a:active,
-.underline a:active {
-    color: #c0a066;
-}
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 2em;
+    width: 100%;
+    }   
+    .header a,
+    .underline a {
+        margin: 0 20px;
+        cursor: pointer;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    #main-header ul > li > span.underline a {
+        border-bottom: 1px solid #ffffff; 
+    }
+    .header a:active,
+    .underline a:active {
+        color: #c0a066;
+    }*/
+    .logo {
+        width: 10%;
+    }
+    /*#menu {
+        display: block;
+        font-family: 'Lato', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        color: #ffffff;
+        font-size: 16px;
+        position: relative;
+        top: 5em;
+        left: 48%;
+        cursor: pointer;
+    }
+    #menu:hover {
+        color: #c0a066;
+    }*/
 }
