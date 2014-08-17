@@ -6,7 +6,9 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, ol, ul, li, articl
     font: inherit;
     vertical-align: baseline; 
 }
-html, body {
+ html, body {
+    background-color: #ffffff;
+    margin: 0 auto;
     height: 100%;
     width: 100%;
     font-family: 'Lora', serif;
@@ -43,7 +45,7 @@ a {
     -webkit-font-smoothing: antialiased;
     color: #ffffff;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     position: absolute;
     top: 22px;
     left: 85px;
@@ -51,6 +53,8 @@ a {
 }
 #main-header {
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 1000;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.1);
@@ -183,7 +187,7 @@ h1 {
     font-weight: 300;
     font-size: 2.8em;
     padding-left: 2em;
-    padding-top: 10.8em;
+    padding-top: 8.8em;
     text-align: left;
 }
 /*News & Updates*/
@@ -231,7 +235,7 @@ h2 {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     height: 500px;
     width: 807px;
     margin: auto;
@@ -243,7 +247,7 @@ h2 {
     width: 250px;
     height: 500px;
     background-color: #000;
-    cursor: pointer;
+    /*cursor: pointer;*/
     -moz-box-shadow: 5px 5px 6px #ccc;
     -webkit-box-shadow: 5px 5px 6px #ccc;
     box-shadow: 5px 5px 6px #ccc;
@@ -283,6 +287,10 @@ h2 {
 /*Section 04 - Artist*/
 .four {
     background: url(../img/artist01.jpg) center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     min-height: 740px;
 }
 .artist {
@@ -308,7 +316,7 @@ a.profile {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
     font-style: normal;
     font-size: 18px;
@@ -369,6 +377,7 @@ em {
 }
 /*Footer*/
 footer  {
+    background-color: #ffffff;
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: 14px;
@@ -390,7 +399,9 @@ footer a {
 .dushane:hover {
     color: #f25252;
 }
-
+.rosa:hover {
+    color: #ff6600;
+}
 /*Artist Page*/
 /*Section One - Landing*/
 .artist-landingpage {
@@ -721,11 +732,12 @@ strong {
     height: 100%;
     padding-bottom: 3em;
 }
-.vimeo {
+.final .vimeo {
     margin: auto;
 }
 iframe {
-    margin: 2em auto
+    width: 640px;
+    margin: 2em auto;
 }
 .media-brands,
 .company-logos {
@@ -738,14 +750,23 @@ iframe {
 .company-logos {
     padding: 2em 0;
 }
+.brand-icons {
+    width: 900px;
+    margin: auto;
+}
 .brand-icons li,
 .logo-icons li {
     display: inline;
     padding: 10px;
 }
+.m-icons {
+    width: 150px;
+    height: auto;
+}
+
 .company-logos ul {
     margin: auto;
-    max-width: 900px;
+    max-width: 700px;
 }
 .bbcnews {
     color: #c72c28;
@@ -807,8 +828,10 @@ iframe {
 }
 #sixtysix {
   background: url(../img/aa-bg02.jpg) center top no-repeat;
-/*  min-height: 820px;*/
-  width: 100%;
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
 }
 .proj-info {
   margin: auto;
@@ -826,8 +849,10 @@ iframe {
 }
 .client {
   font-size: 12px;
+  font-weight: 400;
+  text-transform: none;
   text-align: center;
-  padding: 0.8em 0;
+  padding: 0.8em;
   color: #565656;
   background-color: rgba(255,255,255,0.5)
 }
@@ -836,6 +861,11 @@ iframe {
 }
 .org {
   color: #000;
+}
+.org,
+.launch,
+.size {
+    text-transform: uppercase;
 }
 .sixtysix-description {
   margin: 2em auto;
@@ -867,6 +897,9 @@ h4 {
   background: url(../img/womad.jpg) center top no-repeat;
   width: 100%;
 }
+#womad .objective {
+    height: 687px;
+}
 #womad .final {
     padding-bottom: 0;
     padding-top: 4em;
@@ -876,11 +909,16 @@ h4 {
   background: url(../img/burj_khalifa.jpg) center top no-repeat;
   width: 100%;
 }
-#burj-k .proj-info,
+#burj-k .objective {
+    min-height: 700px;
+}
  #yas .proj-info,
  #nissan .proj-info,
  #f1 .proj-info {
   background-color: rgba(0,0,0,0.4);
+}
+#burj-k .proj-info {
+    background-color: rgba(255,255,255,0.3)
 }
 #burj-k .client,
  #yas .client,
@@ -907,13 +945,22 @@ h4 {
     background: url(../img/artcar.jpg) center top no-repeat;
     height: 100%;
 }
+#artcar .objective {
+    height: 815px;
+}
 #f1 {
     background: url(../img/racing.jpg) center top no-repeat;
     height: 100%;
 }
+#f1 .objective {
+    height: 800px;
+}
 #zafco {
     background: url(../img/jafco.jpg) center top no-repeat;
     width: 100%;
+}
+#zafco .objective {
+    height: 710px;
 }
 .press-buttons {
     padding: 10px 10px;
@@ -973,7 +1020,7 @@ h4 {
     color: #ccc;
 }
 #email-howdy {
-    font-weight: 300;
+    font-weight: 400;
 }
 #email-howdy:hover {
     color: #c0a066;
@@ -986,7 +1033,7 @@ h4 {
 .company-logos .collectors {
     text-align: left;
     line-height: 2;
-    width: 600px;
+    width: 500px;
     margin: auto;
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -999,6 +1046,11 @@ h4 {
 /*Section Two - Gallery USA*/
 #usa {
     background: url(../img/usa.jpg) center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
 }
 #usa .wasel-story {
     height: 250px;
@@ -1017,6 +1069,8 @@ h4 {
     padding: 6em 0;
 }
 .final {
+    margin: auto;
+    width: 750px;
     min-height: 600px;
     background-color: #ffffff;
     padding-bottom: 3em;
@@ -1130,7 +1184,7 @@ h4 {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     background-color: #ffffff;
 }
 .wasel-story {
@@ -1153,12 +1207,13 @@ h4 {
     font-weight: 400;
 }
 #singapore {
-    background: url(../img/singapore.jpg) center top no-repeat;
+    background: url(../img/singapore0.jpg) center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
     padding-top: 4em;
-}
-#singapore .writer {
-    padding-top: 12em;
-    padding-bottom: 2em;
 }
 #singapore .wasel-story {
     height: 265px;
@@ -1167,11 +1222,16 @@ h4 {
     background: url(../img/uae.jpg) center top no-repeat;
 }
 #germany {
-    background: url(../img/germany01.jpg) center top no-repeat;
+    background: url(../img/germany00.jpg) center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
 }
 #germany .writer {
-    padding-top: 3em;
-    padding-bottom: 12em;
+    padding-top: 10em;
+  /*  padding-bottom: 12em;*/
 }
 #china {
     background: url(../img/china01.jpg) center top no-repeat;
@@ -1334,6 +1394,17 @@ h4 {
     }
      .embedcontact {
         width: 500px;
+    }
+    .brand-icons {
+        width: 518px;
+    }
+    .small-quote {
+        left: 7em;
+        width: 580px;
+        height: 120px;
+    }
+    .wasel-story {
+        left: 20%;
     }
 }
 

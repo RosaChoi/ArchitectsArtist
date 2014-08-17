@@ -1,0 +1,10 @@
+.coming-soon {
+	background: url(../img/coming-soon.jpg) center top no-repeat;
+	width: 100%;
+	min-height: 864px;
+}
+/*.desktop {
+	min-width: 1280px;
+	max-width: 1280px;
+	background-color: #000;
+}*/
