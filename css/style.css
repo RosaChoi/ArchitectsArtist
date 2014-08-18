@@ -190,13 +190,6 @@ h1 {
     padding-top: 8.8em;
     text-align: left;
 }
-/*News & Updates*/
-.highlight {
-    font-family: 'Lato', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-weight: 400;
-    color: #c0a066;
-}
 
 /*Section 02 - Mission*/
 .text {
@@ -736,7 +729,7 @@ strong {
     margin: auto;
 }
 iframe {
-    width: 640px;
+    width: 100%;
     margin: 2em auto;
 }
 .media-brands,
@@ -854,7 +847,7 @@ iframe {
   text-align: center;
   padding: 0.8em;
   color: #565656;
-  background-color: rgba(255,255,255,0.5)
+  background-color: rgba(255,255,255,0.5);
 }
 .client_site {
   color: #000;
@@ -1072,7 +1065,7 @@ h4 {
     margin: auto;
     width: 750px;
     min-height: 600px;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     padding-bottom: 3em;
 }
 .final-kenya,
@@ -1123,6 +1116,9 @@ h4 {
     display: none;
     width: 480px;
     height: 717px;
+}
+#burj-k .final .futurico-theme.slider-wrapper {
+    top: 10em;
 }
 .futurico-theme.slider-wrapper {
     position: relative;
