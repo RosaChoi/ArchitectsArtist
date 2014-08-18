@@ -1298,21 +1298,34 @@ h4 {
     margin: auto;
     max-width: 600px;
 }
-.inspiration-full {
-    min-height: 800px;
+#inspiration-full {
+    background: url(../img/kelantan.jpg) center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     width: 100%;
+    height: 800px;
 }
-#video_background {
-position: absolute;
-top: 0px;
-left: 0px;
-min-width: 100%;
-min-height: 100%;
-width: auto;
-height: auto;
-z-index: -1000;
-overflow: hidden;
+#inspiration-full .title {
+    padding-top: 8em;
 }
+#inspiration-full .text {
+    color: #ffffff;
+}
+.firstone {
+    padding-top: 4em;
+}
+.final h3 {
+    padding-bottom: 2em;
+    text-align: center;
+}
+.img-container {
+    width: 700px;
+    margin: auto;
+}
+
+
 
 /*Media Query: max-width 768 & min-width 600*/
 /*@media screen and (max-width: 768px) and (min-width: 600px)*/ 
