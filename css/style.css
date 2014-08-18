@@ -1227,6 +1227,7 @@ h4 {
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
+    padding-top: 75px;
 }
 #germany .writer {
     padding-top: 10em;
@@ -1313,18 +1314,33 @@ h4 {
 #inspiration-full .text {
     color: #ffffff;
 }
-.firstone {
-    padding-top: 4em;
-}
 .final h3 {
-    padding-bottom: 2em;
+    margin: auto;
+    width: 80%;
+    padding: 2em 0;
     text-align: center;
+    color: #696969;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
 }
 .img-container {
     width: 700px;
     margin: auto;
 }
-
+.inspiration-source {
+    min-height: 500px;
+}
+.inspiration-pic .img-container {
+    width: 525px;
+    margin: auto;
+}
+.inspiration-pic1 .img-container {
+    width: 442px;
+    margin: auto;
+}
+.inspiration-pic1 h3 {
+    border-bottom: none;
+}
 
 
 /*Media Query: max-width 768 & min-width 600*/
