@@ -1593,4 +1593,26 @@ h4 {
         width: 315px;
         margin: auto;
     }
+    /*ARTIST PAGE*/
+    .text {
+        width: 20em;
+    }
+    .inspiration-source {
+        min-height: 30%;
+    }
+    iframe {
+        height: 178px;
+    }
+    .img-container img,
+    .img-container,
+    .inspiration-pic1 .img-container,
+    .inspiration-pic .img-container   {
+        width: 300px;
+        margin: auto;
+    }
+    .video-container {
+        width: 300px;
+        margin: auto;
+    }
+
 }
