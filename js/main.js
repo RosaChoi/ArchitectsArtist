@@ -9,12 +9,12 @@ $(document).ready(function () {
 		scroll_pos = $(this).scrollTop();
 
 		if (scroll_pos > servicesY && scroll_pos < artistY) {
-			$('.home, .header a, .underline a').css({"color":"#000"});
+			$('.home, .header a, .underline a, #menu').css({"color":"#000"});
 			$('.underline a').css({"border-bottom": "1px solid #000"});
 			$('.logo').attr("src","img/logo-black.svg");
 		}
 		else {
-			$('.home, .header a, .underline a').css({"color":"#ffffff"});
+			$('.home, .header a, .underline a, #menu').css({"color":"#ffffff"});
 			$('.underline a').css({"border-bottom": "1px solid #ffffff"});
 			$('.logo').attr("src","img/logo-white.svg");
 		}
@@ -28,6 +28,15 @@ function logoClicked() {
 	console.log(logoClicked);
 	$('body, html').animate({scrollTop: 0}, 900);
 };
+
+// For media Query menu
+$('#menu').click(menuClicked);
+function menuClicked() {
+	event.preventDefault();
+	console.log(menuClicked);
+	$('#mobile-menu').show(300);
+};
+
 
 //Scroll to Contact 
 $('.gotocontact').click(contactClicked);
@@ -97,6 +106,3 @@ $('#slider, #slider2, #slider3, #slider4, #slider5, #slider6, #slider-g, #slider
 // 	event. preventDefault();
 // 	$('.wasel-story').hide();
 // };
-
-// For media Query menu
-

@@ -11,8 +11,9 @@
      <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
 	<title> The Architect’s Artist | Commission Artworks, Paintings, Prints </title>
-	<meta name="description" content=" San Francisco artist Wasel Choi specializes in commission artworks for private clients and corporations, including paintings, sculpture, drawing, and prints."/>
+	<meta name="description" content="View original works from artist Wasel Choi of San Francisco, including paintings, sculpture, and prints."/>
 	<meta name="keywords" content=" commission artist san Francisco"/>
+	<!-- San Francisco artist Wasel Choi specializes in commission artworks for private clients and corporations, including paintings, sculpture, drawing, and prints. -->
 
 	<!-- Stylesheet -->
 	<link rel="stylesheet" href="css/normalize.css"/>
@@ -34,7 +35,7 @@
 				<p class="home">Architect's Artist</p>
 				<a id="menu" href="#">MENU</a>
 			</div>
-			<ul>
+			<ul id="fixedheader">
 				<li>
 					<span class="header">
 						<a data-target-id="header-artist" href="artist.html">Artist</a>
@@ -67,6 +68,40 @@
 				</li>
 			</ul>
 		</nav>
+		<div id="mobile-menu">
+			<ul id="mobile-list">
+				<li>
+					<span class="header">
+						<a data-target-id="header-artist" href="artist.html">Artist</a>
+					</span>
+				</li>
+				<li>
+					<span class="header">
+						<a data-target-id="header-projects" href="commissions.html">Commissions</a>
+					</span>
+				</li>
+				<li>
+					<span class="header">
+						<a data-target-id="header-gallery" href="artworld.html">Art World</a>
+					</span>
+				</li>
+				<li>
+					<span class="header">
+						<a data-target-id="header-inspiration" href="inspiration.html">Inspiration</a>
+					</span>
+				</li>
+				<li>
+					<span class="header">
+						<a class="gotocontact" data-target-id="header-contact" href="#">Contact</a>
+					</span>
+				</li>
+				<li>
+					<span class="underline">
+						<a data-target-id="header-shop" href="http://shop.architectsartist.com/" target="_blank">Shop</a>
+					</span>
+				</li>
+			</ul>
+		</div>
 	</header>
 	<!-- Main Content Page -->
 	<div class="container">
@@ -75,9 +110,8 @@
 			<h1 class="title">Architect's Artist <br>
 				Wasel Choi
 			</h1>
-			<!-- <div id="news"><span class="highlight">News & Updates |</span> Coming soon!
-			</div> -->
 		</div>
+
 		<!-- Main Nav - Dots on the left -->
 		<nav id="main-nav">
 			<ul>

@@ -40,6 +40,9 @@ a {
 #menu {
     display: none;
 }
+#mobile-menu {
+    display: none;
+}
 .home {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -167,8 +170,12 @@ a {
     opacity: 1; 
 }
 
+.container {
+    width: 100%;
+}
 /*Section 01 - LandingPage*/
 .section {
+    width: 100%;
     position: relative; 
     text-align: left;
     padding: 125px 0; 
@@ -415,9 +422,9 @@ h1 {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
     line-height: 1.5;
+    margin: auto;
     position: relative;
     bottom: -4em;
-    left: 10em;
     background-color: #000;
     width: 640px;
     height: 100px;
@@ -438,7 +445,7 @@ h1 {
 .years {
     margin: auto;
     text-align: left;
-    width: 600px;
+    /*width: 600px;*/
     padding: 1.5em 0;
 }
 .years {
@@ -531,7 +538,7 @@ strong {
     background-color: #ffffff;
     margin: auto;
     text-align: left;
-    width: 600px;
+    width: 56%;
     padding: 2em;
     line-height: 1.5;
     font-size: 0.8em;
@@ -786,6 +793,7 @@ iframe {
 /*Project Page*/
 /*Section One - Commission Summary*/
 .commission-s1 {
+    width: 100%;
     background-color: #ffffff;
 }
 .commission-s1 h2,
@@ -822,11 +830,7 @@ iframe {
      color: #000;
 }
 #sixtysix {
-  background: url(../img/aa-bg02.jpg) center top no-repeat;
-  /*-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
+    background: url(../img/aa-bg02.jpg) center top no-repeat;
 }
 .proj-info {
   margin: auto;
@@ -890,7 +894,6 @@ h4 {
 /*Section Three - Commission Project02*/
 #womad {
   background: url(../img/womad.jpg) center top no-repeat;
-  width: 100%;
 }
 #womad .objective {
     height: 687px;
@@ -907,7 +910,6 @@ h4 {
 #burj-k .objective {
     min-height: 700px;
 }
- #yas .proj-info,
  #nissan .proj-info,
  #f1 .proj-info {
   background-color: rgba(0,0,0,0.4);
@@ -916,14 +918,9 @@ h4 {
     background-color: rgba(255,255,255,0.3)
 }
 #burj-k .client,
- #yas .client,
  #nissan .client,
  #f1 .client {
     background-color: rgba(255,255,255,0.6)
-}
-#yas {
-    background: url(../img/yas01.jpg) center top no-repeat;
-    height: 100%;
 }
 .painting-title {
      font-family: 'Lato', sans-serif;
@@ -993,7 +990,7 @@ h4 {
     padding: 5px 0;
 }
 
-/*Gallery Page*/
+/*Art World Page*/
 /*Section One - Gallery Summary*/
 #active {
     color: #c0a066;
@@ -1219,6 +1216,11 @@ h4 {
 }
 #uae {
     background: url(../img/uae.jpg) center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
 }
 #germany {
     background: url(../img/germany00.jpg) center top no-repeat;
@@ -1235,6 +1237,11 @@ h4 {
 }
 #china {
     background: url(../img/china01.jpg) center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
 }
 #china {
     padding: 4em 0;
@@ -1246,6 +1253,11 @@ h4 {
 }
 #kenya {
     background: url(../img/kenya01.jpg) center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
 }
 #kenya .writer {
     padding: 1em 0;
@@ -1253,6 +1265,11 @@ h4 {
 #czech {
     padding-top: 3.5em;
     background: url(../img/czech.jpg) center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
 }
 .slidedown {
     width: 100px;
@@ -1346,7 +1363,6 @@ h4 {
 /*Media Query: max-width 768 & min-width 600*/
 /*@media screen and (max-width: 768px) and (min-width: 600px)*/ 
 @media screen and (max-width: 768px) {
-   
     .logo-hover .home {
         opacity: 0;
     }
@@ -1417,7 +1433,6 @@ h4 {
     .buttons a:hover {
         color: #c0a066;
     }
-    
     .prints-mobile .buttons {
         background: url(../img/prints02.png)center top no-repeat; 
     }
@@ -1442,7 +1457,6 @@ h4 {
         width: 518px;
     }
     .small-quote {
-        left: 7em;
         width: 580px;
         height: 120px;
     }
@@ -1452,10 +1466,59 @@ h4 {
 }
 
 /*Media Query: max-width 480 */
-@media screen and (max-width: 580px) and (min-width: 320px){
+@media screen and (max-width: 580px) and (min-width: 320px) {
     #main-nav {
         display: none;
     }
+    .logo-hover {
+        overflow: hidden;
+        height: 60px;
+    }
+    #fixedheader {
+        display: none;
+    }
+    .logo {
+        width: 10%;
+        z-index: 50;
+    }
+    #menu {
+        display: inline;
+        font-family: 'Lato', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        color: #ffffff;
+        font-size: 16px;
+        float: right;
+        position: relative;
+        top: 1em;
+        right: 1em;
+        cursor: pointer;
+        z-index: 10;
+    }
+    #menu:hover {
+        color: #c0a066;
+    }
+    #mobile-menu {
+        width: 100%;
+        height: 800px;
+        position: absolute;
+        top: 0;
+        background-color: rgba(0,0,0,0.7);
+        padding: 2em;
+        z-index: 10;
+    }
+    #mobile-list li {
+        margin: auto;
+        width: 250px;
+        display: block;
+        text-align: left;
+    }
+    #mobile-list a {
+        font-size: 30px;
+        cursor: pointer;
+    }
+     #mobile-list a:hover  {
+        border-bottom: 3px solid #c0a066;
+      }
     h1 {
         padding: 0;
         position: relative;
@@ -1491,52 +1554,43 @@ h4 {
     padding: 0;
     font-size: 1.2em;
     }
-    #main-header ul {
-        clear:both;    
+    #credits {
+    float: left;
+    padding: 0.5em 0;
     }
-   /* #main-header ul {
-        height: 480px;
-        position: relative;
-        top: 5em;
-        background-color: #000;
+    /*ARTIST PAGE*/
+    .sub-title {
+        width: 300px;
+        margin: auto;
+        padding-bottom: 2em;
+    }
+    .artist-landingpage .title {
+        top: 3em;
+    }
+    .small-quote {
         display: none;
     }
-    #main-header ul > li {
-    display: block;
-    font-size: 2em;
-    font-weight: 300;
-    line-height: 2em;
-    width: 100%;
-    }   
-    .header a,
-    .underline a {
-        margin: 0 20px;
-        cursor: pointer;
-        text-transform: uppercase;
-        color: #fff;
+    #conversation .text {
+        width: 300px;
     }
-    #main-header ul > li > span.underline a {
-        border-bottom: 1px solid #ffffff; 
+    .qa {
+        width: 300px;
     }
-    .header a:active,
-    .underline a:active {
-        color: #c0a066;
-    }*/
-    .logo {
-        width: 10%;
+    .brand-icons {
+        width: 300px;
     }
-    /*#menu {
+    .m-icons {
+        width: 100px;
+    }
+    #media-list {
+        width: 80%;
+    }
+    #media-list li {
+        padding: 0;
         display: block;
-        font-family: 'Lato', sans-serif;
-        -webkit-font-smoothing: antialiased;
-        color: #ffffff;
-        font-size: 16px;
-        position: relative;
-        top: 5em;
-        left: 48%;
-        cursor: pointer;
     }
-    #menu:hover {
-        color: #c0a066;
-    }*/
+    .media-row01{
+        width: 315px;
+        margin: auto;
+    }
 }
