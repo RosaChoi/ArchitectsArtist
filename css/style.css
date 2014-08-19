@@ -1076,7 +1076,6 @@ h4 {
     min-height: 750px;
     padding-bottom: 6em;
 }
-
 .futurico-theme.slider-wrapper-a {
     position: relative;
     top: 5em;
@@ -1117,9 +1116,6 @@ h4 {
     width: 480px;
     height: 717px;
 }
-/*#burj-k .final .futurico-theme.slider-wrapper {
-    top: 10em;
-}*/
 .futurico-theme.slider-wrapper {
     position: relative;
     top: 5em;
@@ -1593,7 +1589,157 @@ h4 {
         width: 315px;
         margin: auto;
     }
-    /*ARTIST PAGE*/
+    /*ARTIST WORLD PAGE*/
+    .gallery-landingpage .title {
+        top: 0.1em;
+    }
+    .client,
+    .collectors li {
+        margin: auto;
+        width: 300px;
+    }
+    .company-logos .collectors {
+        width: 300px;
+    }
+    .wasel-story {
+        margin: auto;
+        width: 300px;
+    }
+    .story-text {
+        font-size: 95%;
+        width: 90%;
+    }
+    #usa .wasel-story {
+        height: 350px;
+    }
+   #singapore .wasel-story {
+    height: 320px;
+   }
+    .final-czech .final {
+        padding: 0;
+        min-height: 300px;
+    }
+    .gallery .writer {
+        padding: 0;
+        position: relative;
+        top: -3em;
+    }
+    .final-uae,
+    .final-usa {
+        min-height: 400px;
+    }
+    .final-singa,
+    .final-kenya,
+    .final-germany,
+    .final-china {
+        width: 100%;
+        min-height: 550px;
+    }
+    .futurico-theme.slider-wrapper {
+    top: 5em;
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    }
+    .futurico-theme #slider-a {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    }
+    .futurico-theme #slider-a img {
+    display: none;
+    width: 320px;
+    height: 320px;
+    }
+    .futurico-theme #slider-c {
+    position: relative;
+    width: 350px;
+    height: 201px;
+    }
+    .futurico-theme #slider-c img {
+    display: none;
+    width: 350px;
+    height: 201px;
+    }
+    .futurico-theme.slider-wrapper-a {
+    top: 5em;
+    width: 300px;
+    height: 448px;
+    margin: auto;
+    }
+    .futurico-theme #slider-b,
+    .futurico-theme #slider-d,
+    .futurico-theme #slider-e,
+    .futurico-theme #slider-f {
+    position: relative;
+    width: 300px;
+    height: 448px;
+    }
+     .futurico-theme #slider-b img,
+    .futurico-theme #slider-d img,
+    .futurico-theme #slider-e img,
+    .futurico-theme #slider-f img {
+    display: none;
+    width: 300px;
+    height: 448px;
+    }
+    .futurico-theme .nivo-directionNav a {
+        display: none;
+    }
+    /*Commission PAGE*/
+    .reference {
+        display: none;
+    }
+    .proj-info {
+        width: 319px;
+    }
+    .sixtysix-description,
+    .sixtysix-description p.text {
+        width: 300px;
+    }
+    .mobile-omit {
+        display: none;
+    }
+    #sixtysix .final,
+    #womad .final,
+    #zafco .final,
+    #f1 .final,
+    #artcar .final,
+    #nissan .final {
+        margin: auto;
+        min-height: 350px;
+    }
+     .futurico-theme #slider,
+     .futurico-theme #slider2,
+     .futurico-theme #slider4,
+     .futurico-theme #slider5,
+     .futurico-theme #slider6 {
+        margin: auto;
+        position: relative;
+        width: 350px;
+        height: 240px;
+    }
+    .futurico-theme #slider img,
+    .futurico-theme #slider2 img,
+    .futurico-theme #slider4 img,
+    .futurico-theme #slider5 img,
+    .futurico-theme #slider6 img {
+        margin: auto;
+        display: none;
+        width: 350px;
+        height: 240px;
+    }
+    #zafco p.text {
+        font-size: 80%;
+    }
+    .press-buttons {
+        display: none;
+    }
+    #nissan .objective {
+        height: 600px;
+    }
+
+    /*INSPIRATION PAGE*/
     .text {
         width: 20em;
     }

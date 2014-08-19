@@ -37,6 +37,13 @@ function menuClicked() {
 	$('#mobile-menu').show(300);
 };
 
+$('#closemark').click(closeClicked);
+function closeClicked() {
+	event.preventDefault();
+	console.log(closeClicked);
+	$('#mobile-menu').hide(300);
+};
+
 
 //Scroll to Contact 
 $('.gotocontact').click(contactClicked);
