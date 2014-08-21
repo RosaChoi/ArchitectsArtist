@@ -445,7 +445,7 @@ h1 {
 .years {
     margin: auto;
     text-align: left;
-    /*width: 600px;*/
+    width: 600px;
     padding: 1.5em 0;
 }
 .years {
@@ -1567,6 +1567,9 @@ h4 {
         display: none;
     }
     #conversation .text {
+        width: 300px;
+    }
+    #conversation .writer {
         width: 300px;
     }
     .qa {
