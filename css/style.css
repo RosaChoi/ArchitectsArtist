@@ -447,6 +447,9 @@ h1 {
     width: 600px;
     padding: 1.5em 0;
 }
+.writer {
+    margin: auto;
+}
 .years {
     color: #000;
 }
@@ -1486,7 +1489,7 @@ h4 {
         position: absolute;
         top: 0;
         background-color: rgba(0,0,0,0.7);
-        padding: 2em;
+        padding: 1.4em;
         z-index: 10;
     }
     #mobile-list li {
