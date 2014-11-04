@@ -341,10 +341,11 @@ a.profile {
 .contact-us {
     background-color: #f4f4f4;
     color: #565656;
+    margin-bottom: 3em;
 }
-#contact {
+/*#contact {
     padding-bottom: 0;
-}
+}*/
 .five p {
     font-size: 0.8em;
     width: 580px;
