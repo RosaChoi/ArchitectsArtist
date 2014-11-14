@@ -60,7 +60,7 @@ a {
     left: 0;
     z-index: 1000;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 #main-header ul {
@@ -188,6 +188,9 @@ a {
     background-size: cover;
     height: 700px;
     border-bottom: 2px solid rgba(0,0,0,0.8);
+}
+.one .title {
+  color: #000000;
 }
 h1 {
     color: #ffffff;
