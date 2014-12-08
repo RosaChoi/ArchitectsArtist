@@ -45,7 +45,7 @@ function closeClicked() {
 };
 
 
-//Scroll to Contact 
+//Scroll to Contact
 $('.gotocontact').click(contactClicked);
 function contactClicked() {
 	event.preventDefault();

@@ -240,7 +240,7 @@ h2 {
     text-transform: uppercase;
     font-weight: 400;
     height: 500px;
-    width: 807px;
+    width: 537px;
     margin: auto;
 }
 .types li {
@@ -1345,7 +1345,7 @@ h4 {
     width: 442px;
     margin: auto;
 }
-.inspiration-pic1 h3 {
+.inspiration-source.no-border h3 {
     border-bottom: none;
 }
 
