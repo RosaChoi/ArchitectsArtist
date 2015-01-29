@@ -539,6 +539,10 @@ strong {
 .questions li {
     padding: 1.2em 0;
 }
+
+.written-date {
+  float: right;
+}
 /*Section Five - Media and Publication*/
 .exhibition-list {
     background-color: #ffffff;
